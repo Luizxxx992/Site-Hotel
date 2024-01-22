@@ -2,80 +2,91 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOTEL - LUIS E SANDRO</title>
-    <style>
-        
-        #tabela{
-            padding:200px;
-        }
-        body{
-            background-image:url("https://media.istockphoto.com/id/104731717/pt/foto/resort-de-luxo.jpg?s=612x612&w=0&k=20&c=6rJBstFwB4tA-y7Fk8oEp9b8icCtQpS7-aKhKUxAbE4=");
-            background-size: cover;
-        }
-        #Cabesalho{
-        
-            text-align:center;
-            width:"100%";
-            height:"300px";
-            background-color: aliceblue;
-        }
-    </style>
-   
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HOTEL - LUIS E SANDRO</title>
+
+
 </head>
 
 <body>
-    <div id="Cabesalho">
-        <h1>Hotel Aphavile</h1>
-    </div>
-    <div id="tabela">
-    <table border="1PX">
-        <tr>
-            <td colspan="2">
-                <img src="https://imagens-revista.vivadecora.com.br/uploads/2019/05/quarto-de-hotel-decorado-em-cores-neutras-com-amplas-janelas.jpg"
-                    width="300px" height="300px" />
-            </td>
-            <td colspan="2">
-                <img src="https://img.freepik.com/fotos-premium/loft-moderno-e-design-de-interiores-do-quarto-escuro-renderizacao-em-3d_33739-551.jpg?size=626&ext=jpg"
-                width="300px" height="300" />
-                    
-            </td>
-            <td colspan="2">
-                <img src="https://s2.glbimg.com/A9KYG2fcR9VU8UJeLj_z93dTpo4=/smart/e.glbimg.com/og/ed/f/original/2019/05/23/nobu-ryokan-malibu-beachfront-room.jpg"
-                    width="300px" height="300px" />
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">VALOR: R$ 500.00</td>
-       <td colspan="2">VALOR:R$800,00</td>
-            <td colspan="2">VALOR:R$1000,00000</td>
-        </tr>
-    </table>
+  <header>
+    <h1>Hotel Aphavile</h1>
 
-    <table border="1PX">
-        <tr>
-            <td colspan="2">
-                <img src="https://hotelsaofranciscocaxambu.com.br/wp-content/gallery/simples/quarto-simples-com-duas-camas.jpg"
-                    width="300px" height="300px" />
-            </td>
-            <td colspan="2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6heGWChC1pw5K2jlDqix663_zeomU8hHXQ&usqp=CAU"
-                    width="300px" height="300px" />
-            </td>
-            <td colspan="2">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/09/64/cf/vista-do-quarto-e-varanda.jpg"
-                    width="300px" height="300px" />
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">VALOR: R$ 500.00</td>
-            <td colspan="2">VALOR: R$398.00</td>
-            <td colspan="2">VALOR: R$470.00 </td>
-        </tr>
-    </table>
-   </div>
+  </header>
+
+
+
+
+
+
+  <ul class="cards">
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image card__image--fence"></div>
+        <div class="card__content">
+          <div class="card__title">Flex</div>
+          <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and
+            third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+          <button class="btn btn--block card__btn">Button</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image card__image--river"></div>
+        <div class="card__content">
+          <div class="card__title">Suite Super Luxo</div>
+          <p class="card__text">Suite Para duas pessoas com vista para o centro da cidade</p>
+          <button class="btn btn--block card__btn">R$800,00 </button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image card__image--record"></div>
+        <div class="card__content">
+          <div class="card__title">Suite Diamante</div>
+          <p class="card__text">Suite com varanda na beira com capacidade para 4 pessoas</p>
+          <button class="btn btn--block card__btn">R$4000,00</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image card__image--flowers"></div>
+        <div class="card__content">
+          <div class="card__title">Suite Ouro</div>
+          <p class="card__text">Essa é a suite mais espaçosa e completa possui tambem poltronas.Capacidade para duas
+            pessoas"</p>
+          <button class="btn btn--block card__btn">R$2000,00</button>
+        </div>
+      </div>
+    </li>
+
+    <li class="cards__item">
+      <div class="card">
+        <div class="card__image card__image--5"></div>
+        <div class="card__content">
+          <div class="card__title">xxx</div>
+          <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and
+            third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+          <button class="btn btn--block card__btn">Button</button>
+        </div>
+      </div>
+      <li class="cards__item">
+        <div class="card">
+          <div class="card__image card__image--6"></div>
+          <div class="card__content">
+            <div class="card__title">xxx</div>
+            <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and
+              third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+            <button class="btn btn--block card__btn">Button</button>
+          </div>
+        </div>
+  
+  </ul>
 
 </body>
 
