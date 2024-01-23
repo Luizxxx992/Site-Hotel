@@ -8,7 +8,7 @@
     background-color: aliceblue;
     
 }
- body{
+ #imagemfundo{
     background-image:url ("https://www.salinas.com.br/img/layout/maceio/resort/vista-aerea-completa-do-resort-salinas-maceio-mob.jpg");
 }
 img{
@@ -163,10 +163,10 @@ img {
   background-image: url("https://hotelsaofranciscocaxambu.com.br/wp-content/gallery/simples/quarto-simples-com-duas-camas.jpg");
 }
 .card__image--5 {
-  background-image: url("https://hotelsaofranciscocaxambu.com.br/wp-content/gallery/simples/quarto-simples-com-duas-camas.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6heGWChC1pw5K2jlDqix663_zeomU8hHXQ&usqp=CAU");
 }
 .card__image--6 {
-  background-image: url("https://hotelsaofranciscocaxambu.com.br/wp-content/gallery/simples/quarto-simples-com-duas-camas.jpg");
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0f/09/64/cf/vista-do-quarto-e-varanda.jpg");
 }
 
 
